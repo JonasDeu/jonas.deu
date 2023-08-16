@@ -1,13 +1,21 @@
 body {
-    padding: 0;
+    padding: 4em;
     margin: auto;
-    padding-top: 5em;
+    padding-top: 4em;
     font-size: 1em;
     font-family: monospace;
     line-height: 1.2;
-    background-color: #f7f6f5;
+    background-color: #f9f8f7;
     max-width: 500px;
 
+}
+
+header nav {
+    text-align: right;
+}
+
+h1, nav {
+    display: block;
 }
 
 h1,
@@ -63,7 +71,7 @@ main:after {
 }
 
 article {
-    margin: 2.5em 0;
+    margin: 2em 0;
 }
 
 article h3 {
@@ -81,6 +89,7 @@ article p {
 }
 
 footer {
+    padding-top: 2em;
     margin: 0 0 2em 0;
 }
 
